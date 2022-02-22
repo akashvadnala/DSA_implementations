@@ -24,3 +24,7 @@ public:
         return pow(2,c)*dp[nums.size()][(sum-S)/2];
     }
 };
+
+// The number of ways of partioning of array into two such that difference of sum of elements is equal to target(S)
+
+//It is similar to subset sum, but here target=sum of elements - target;

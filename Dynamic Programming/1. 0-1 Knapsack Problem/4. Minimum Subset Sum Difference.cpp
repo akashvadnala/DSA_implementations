@@ -17,3 +17,11 @@ public:
 };
 
 //Patition of array into two such that difference of sum of elements of arrays is minimum
+
+//array=[2,7,4,1,8,1] -> sum=23
+
+//array1=[2,8,1] ->sum=11
+
+//array2=[7,4,1] -> sum=12
+
+//difference = 1
