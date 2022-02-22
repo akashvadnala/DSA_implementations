@@ -24,3 +24,9 @@ public:
         return t;
     }
 };
+
+// Partition of array into two such that sum of elements in two arrays are equal
+
+// array=[1,5,11,5] -> sum=22
+
+// array1=[1,5,1] ,array2=[11] -> sum=11

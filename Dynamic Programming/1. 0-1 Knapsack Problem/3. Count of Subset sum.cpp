@@ -1,5 +1,4 @@
 class Solution{
-
 	public:
 	int subsetCount(int arr[], int n, int sum)
 	{
@@ -14,6 +13,8 @@ class Solution{
             }
             
         return t[n][sum];
-	}
-	  
+	} 
 };
+
+
+// To count the number of subsets having the target sum

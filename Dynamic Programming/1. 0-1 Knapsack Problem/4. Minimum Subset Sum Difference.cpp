@@ -15,3 +15,5 @@ public:
         return sum;
     }
 };
+
+//Patition of array into two such that difference of sum of elements of arrays is minimum

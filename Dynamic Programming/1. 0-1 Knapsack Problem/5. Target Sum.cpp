@@ -1,13 +1,9 @@
 class Solution {
 public:
-    int findTargetSumWays(vector<int>& nums, int S) {
-        //             ADITYA VERMA -- COUNT SUBSET WITH GIVEN DIFFERENCE
-           
-
+    int findTargetSumWays(vector<int>& nums, int S) {         
         int sum = accumulate(nums.begin(),nums.end(),0);
         if(S>sum || (sum-S)%2!=0)
             return 0;
-        
         vector<vector<int>> dp(nums.size()+1,(vector<int>(((sum-S)/2)+1,0))); 
         int c=0;
         for(int i=0;i<nums.size();i++)
