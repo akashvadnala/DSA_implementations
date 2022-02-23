@@ -1,7 +1,6 @@
 class Solution{
 	public:
-	int subsetCount(int arr[], int n, int sum)
-	{
+	int subsetCount(int arr[], int n, int sum){
        vector<vector<int>> t(n+1,vector<int>(sum+1,0));
        for(int i=0;i<n+1;i++) t[i][0] = 1;
         for(int i=1;i<n+1;i++)
