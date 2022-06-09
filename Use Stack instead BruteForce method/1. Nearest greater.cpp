@@ -13,6 +13,7 @@ vector<int> nearestgreater(vector<int>& arr){
 }
 int main(){
     vector<int> arr{1,0,2,1,4,5,0,2};
-    nearestgreater(arr);
+    vector<int> ans=nearestgreater(arr);
+    for(auto i:ans) cout<<i<<' ';
     return 0;
 }

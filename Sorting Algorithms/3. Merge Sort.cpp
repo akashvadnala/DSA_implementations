@@ -7,7 +7,7 @@ void mergeSort(vector<int>& arr,int l,int r){
     }
 }
 
-void merge(vector<int>& arr,int l,int m,int r){
+void mergeit(vector<int>& arr,int l,int m,int r){
     int n1=m-l+1;
     int n2=r-m;
     vector<int> a1(n1),a2(n2);
