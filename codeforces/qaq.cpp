@@ -15,4 +15,5 @@ int main(){
 		}
 	}
 	cout<<three<<endl;
+	return 0;
 }
